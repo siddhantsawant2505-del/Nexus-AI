@@ -1,0 +1,11 @@
+# Pinned to the last release with the legacy mp.solutions.pose API.
+# Newer mediapipe versions switch to the Tasks API and require downloading
+# a separate .task model file at runtime -- not needed with this version.
+mediapipe==0.10.14
+
+opencv-python-headless==4.10.0.84
+pandas>=2.0
+numpy>=1.24
+pillow>=10.0
+tqdm>=4.66
+scikit-learn>=1.3
